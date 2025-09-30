@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+*.log
+
+# Environments
+.venv/
+env/
+venv/
+*.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Notebooks autosave
+*.ipynb_checkpoints
+*.ipynb_autosave
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# System
+.DS_Store
+Thumbs.db
+
+# Data science / ML
+# Large data / model files you usually don’t want in git
+*.h5
+*.hdf5
+*.db
+*.sqlite
+*.npz
+*.joblib
+
+# Optional: comment these out if you want them tracked
+*.pkl
+
+# Outputs
+# *.csv
+*.tsv
+*.parquet
+
+# OS junk
+*.swp
+*.tmp
